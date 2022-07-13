@@ -1,0 +1,35 @@
+.body {
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    display: inline-block;
+    width: 100%;
+}
+
+.headline {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.text {
+    text-align: center;
+    font-size: 25px;
+}
+
+.sideText {
+    color: black;
+    font-size: 15px;
+    text-align: center;
+}
+
+.credits {
+    font-size: 18px;
+    color: lightslategray;
+}
+
+.nonStyledHyperlinks {
+    text-decoration: none;
+    color: black;
+}
+

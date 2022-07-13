@@ -1,0 +1,59 @@
+.body {
+    background-color: #06406C;
+    font-family: 'Roboto', sans-serif;
+    display: inline-block;
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+.headline {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+
+.text {
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    line-height: 0.3;
+}
+
+
+.terminal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.terminal p {
+    color: white;
+    background-color: black;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-family: 'Source Code Pro', monospace; 
+    margin: 0px;
+}
+
+.newButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.newButton a {
+    background-color: #238636;
+    padding: 5px 16px;
+    border-radius: 6px;
+    color: white;
+    text-decoration: none;
+}
+
+.newButton a svg {
+    vertical-align: text-bottom;
+    padding-right: 4px;
+    fill: currentColor;
+}

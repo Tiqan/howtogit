@@ -1,0 +1,42 @@
+.body {
+    background-color: #CC4037;
+    font-family: 'Roboto', sans-serif;
+    display: inline-block;
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+.headline {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #4C0D09;
+}
+
+.text {
+    text-align: center;
+    font-size: 25px;
+    color: #4C0D09;
+    line-height: 0.3;
+}
+
+.sideText {
+    font-size: 15px;
+    text-align: center;
+}
+
+.terminal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.terminal p {
+    color: white;
+    background-color: black;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-family: 'Source Code Pro', monospace; 
+    margin: 0px;
+}
