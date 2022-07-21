@@ -4,7 +4,7 @@ const RepositoryCreation = () => {
     return (
         <div className={style.body}>
             <p className={style.headline}>create a new repository</p>
-            <p className={style.text}>open a terminal and direct to the project with</p>
+            <p className={style.text}>direct to the project with</p>
             <div className={style.terminal}>
                 <p>cd &lt;projectdirectory&gt;</p>
             </div>
@@ -12,7 +12,7 @@ const RepositoryCreation = () => {
             <div className={style.terminal}>
                 <p>git init</p>
             </div>
-            <p className={style.text}>after that create a new GitHub account if you don't already have one and create a new repository by clicking on the button below</p>
+            <p className={style.text}>after that create a new repository by clicking on the button below</p>
 
             <div className={style.newButton}>
                 <a href='https://github.com/new' target='_blank' rel="noreferrer">

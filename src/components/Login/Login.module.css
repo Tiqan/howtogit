@@ -1,5 +1,5 @@
 .body {
-    background-color: #06406C;
+    background-color: #4C0D09;
     font-family: 'Roboto', sans-serif;
     display: inline-block;
     width: 100%;
@@ -11,17 +11,23 @@
     margin-bottom: 20px;
     font-size: 40px;
     font-weight: bold;
-    color: white;
+    color: #CDABA8;
 }
 
 .text {
     text-align: center;
     font-size: 25px;
-    color: white;
+    color: #CDABA8;
+    
 }
 
+.sideText {
+    font-size: 15px;
+    text-align: center;
+}
 
 .terminal {
+    margin-bottom: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -34,25 +40,4 @@
     border-radius: 10px;
     font-family: 'Source Code Pro', monospace; 
     margin: 0px;
-}
-
-.newButton {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-}
-
-.newButton a {
-    background-color: #238636;
-    padding: 5px 16px;
-    border-radius: 6px;
-    color: white;
-    text-decoration: none;
-}
-
-.newButton a svg {
-    vertical-align: text-bottom;
-    padding-right: 4px;
-    fill: currentColor;
 }

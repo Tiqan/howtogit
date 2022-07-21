@@ -6,7 +6,8 @@ const Download = () => {
         <div className={style.body}>
             <p className={style.headline}>pushing changes</p>
             <p className={style.text}>to connect your repository you want to push to type</p>
-            <p className={style.sideText}>(as server enter the url of the repository)</p>
+            <p className={style.text}>as server enter the url of the repository</p>
+            <p className={style.sideText}>(you only need to execute this once your project)</p>
             <div className={style.terminal}>
                 <p>git remote add origin &lt;server&gt;</p>
             </div>
