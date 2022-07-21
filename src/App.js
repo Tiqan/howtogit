@@ -3,6 +3,7 @@ import './App.css'
 
 import About from './components/About/About'
 import Download from './components/Download/Download'
+import Login from './components/Login/Login'
 import RepositoryCreation from './components/RepositoryCreation/RepositoryCreation'
 import AddAndCommit from './components/AddAndCommit/AddAndCommit'
 import PushingChanges from './components/PushingChanges/PushingChanges'
@@ -14,6 +15,7 @@ function App() {
     <div>
       <About/>
       <Download/>
+      <Login/>
       <RepositoryCreation/>
       <AddAndCommit/>
       <PushingChanges/>
